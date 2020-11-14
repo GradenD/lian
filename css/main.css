@@ -191,3 +191,38 @@ input.search-form:hover {
     -ms-flex-positive: inherit;
     flex-grow: inherit;
 }
+
+
+
+
+.carousel-inner{
+	height: 650px;
+}
+
+.carousel-item{
+	height: 100%;
+}
+
+.carousel-item img{
+	width: 100%;
+	height: auto;
+}
+
+.carousel-caption {
+	color: #000000;
+	font-weight: 300;
+	bottom: 40%;
+}
+
+.carousel-caption h5{
+	font-size: 3.4rem;
+	letter-spacing: 5px;
+	color: #fff;
+	background: #000000;
+}
+
+.carousel-caption p{
+	margin-top: 30px;
+	font-size: 1.3rem;
+	letter-spacing: 5px;
+}
