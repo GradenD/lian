@@ -16,17 +16,20 @@
 	<div class="wrapper">
 		<header id="header">
 			<div class="container">
-				<div class="header">
+				<div class="header navbar navbar-expand-lg bsnav">
 					<div class="logo">
 						<img src="img/logo.png">
 					</div>
-					<div class="main-menu">
-						<ul>
+					<button class="navbar-toggler toggler-spring" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="main-menu collapse navbar-collapse">
+						<ul class="navbar-nav nav-margin">
 							<li>HOME</li>
-							<li>About</li>
-							<li>Portfolio</li>
+							<li>ABOUT</li>
+							<li>PORTFOLIO</li>
 							<li>BLOG</li>
-							<li>Contact</li>
+							<li>CONTACT</li>
 						</ul>
 					</div>
 				</div>

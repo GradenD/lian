@@ -18,7 +18,8 @@ html, body {
 
 body {
     background: #fafafa;
-    font-weight: 700;
+	font-family: 'Roboto';
+	font-weight: 700;
     font-style: normal;
     font-size: 1.2rem;
     font-weight: 700;
@@ -118,8 +119,8 @@ a:focus {
     display: -ms-flexbox;
     display: -webkit-flex;
     -webkit-justify-content: space-between;
-    justify-content: space-between;
-	padding-top: 30px;
+	justify-content: space-between;
+	font-size: 1rem;
 }
 
 .header .main-menu ul{
@@ -133,4 +134,28 @@ a:focus {
 
 .header .main-menu li{
 	padding-left: 45px;
+}
+
+@media (max-width: 993px) {
+	.header .main-menu{
+		margin-top: 30px;
+	}
+
+	.header .main-menu li{
+		padding-left: 0px;
+		padding-right: 45px;
+	}
+}
+
+.bsnav {
+    background: none;
+}
+
+.navbar {
+    padding: 30px 0px;
+}
+
+.navbar-collapse {
+    -ms-flex-positive: inherit;
+    flex-grow: inherit;
 }
