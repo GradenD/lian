@@ -112,3 +112,25 @@ a:focus {
 	margin-bottom: 15px;
 	background: gray;
 }
+
+.header{
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+	padding-top: 30px;
+}
+
+.header .main-menu ul{
+	display: -ms-flexbox;
+    display: flex;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	text-decoration: none;
+	list-style: none;
+}
+
+.header .main-menu li{
+	padding-left: 45px;
+}

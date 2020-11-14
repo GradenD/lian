@@ -20,7 +20,15 @@
 					<div class="logo">
 						<img src="img/logo.png">
 					</div>
-					<div class="main-menu"></div>
+					<div class="main-menu">
+						<ul>
+							<li>HOME</li>
+							<li>About</li>
+							<li>Portfolio</li>
+							<li>BLOG</li>
+							<li>Contact</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</header>
