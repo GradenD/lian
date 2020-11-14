@@ -5,11 +5,12 @@
 	<?php require_once 'library/main.php';?>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <title>By.Wlop</title>
+	<title>By.Wlop</title>
+	<script type="text/javascript" src='js/fontawesome.js'></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bsnav.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
-	<link rel="stylesheet" type="text/css" href="fonts//font.css">
+	<link rel="stylesheet" type="text/css" href="fonts/font.css">
     <link rel="shortcut icon" href="">
   </head>
 <body>	
@@ -31,6 +32,14 @@
 							<li>BLOG</li>
 							<li>CONTACT</li>
 						</ul>
+						<div class="social">
+							<div class="search">
+                             	<form role="form">
+                            	 	<input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                               		 <i class="fa fa-search" aria-hidden="true"></i>
+                            	</form>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>

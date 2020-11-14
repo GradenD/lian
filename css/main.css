@@ -37,7 +37,6 @@ img{
 
 button{
 	cursor: pointer;
-	button:focus;
 	outline: none;
 }
 
@@ -135,6 +134,39 @@ a:focus {
 .header .main-menu li{
 	padding-left: 45px;
 }
+
+input.search-form {
+    background: transparent;
+    border: 0 none;
+    width: 60px;
+    padding: 0 10px;
+    color: #FFF;
+    -webkit-transition: all 400ms;
+    transition: all 400ms;
+}
+
+input.search-form::-webkit-input-placeholder { color: transparent; }
+input.search-form:-moz-placeholder { color: transparent; } /* FF 4-18 */
+input.search-form::-moz-placeholder { color: transparent; } /* FF 19+ */
+input.search-form:-ms-input-placeholder { color: transparent; } /* IE 10+ */
+
+input.search-form:hover::-webkit-input-placeholder { color: #fff; }
+input.search-form:hover:-moz-placeholder { color: #fff; } /* FF 4-18 */
+input.search-form:hover::-moz-placeholder { color: #fff; } /* FF 19+ */
+input.search-form:hover:-ms-input-placeholder { color: #fff; } /* IE 10+ */
+
+input.search-form:hover {
+    width: 180px;
+}
+
+
+@media (max-width: 767px){
+	input.search-form, input.search-form:hover {
+		width: 180px;
+		border: 1px solid #fff;
+	}
+}
+
 
 @media (max-width: 993px) {
 	.header .main-menu{
