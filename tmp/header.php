@@ -18,9 +18,7 @@
 			<div class="container">
 				<div class="header">
 					<div class="logo">
-    <svg id="example3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-        <image x="0" y="0" width="136" height="23" xlink:href="img/logo.svg" />
-    </svg>
+						<img src="img/logo.png">
 					</div>
 					<div class="main-menu"></div>
 				</div>
