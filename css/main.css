@@ -85,9 +85,14 @@ a:focus {
 
 .container {
 	height: 100%;
-	padding-right: 0px;
-    padding-left: 0px;
     margin: 0 auto;
+}
+
+@media (min-width: 576px){
+	.container {
+		padding-right: 0px;
+		padding-left: 0px;
+	}
 }
 
 .content{
@@ -259,5 +264,30 @@ input.search-form:hover {
 
 	.carousel-control-next-icon, .carousel-control-prev-icon {
 		padding: 25px;
+	}
+}
+
+@media (max-width: 450px){
+	.carousel-inner{
+		height: 400px;
+	}
+
+	.carousel-caption {
+		font-weight: 300;
+		bottom: 60px;
+		right: 0%;
+   		left: 0%;
+		width: 90%;
+		margin: 0px auto;
+	}
+
+	.carousel-control-next-icon, .carousel-control-prev-icon {
+		padding: 25px;
+		width: 20px;
+		height: 20px;
+	}
+
+	.carousel-control-next, .carousel-control-prev {
+		z-index: 10;
 	}
 }
