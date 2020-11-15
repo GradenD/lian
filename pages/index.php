@@ -7,14 +7,14 @@
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="img/slide1.jpg">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-sm-block d-md-block">
                     <h5>LIAN CREATIVE AGENCY</h5>
                     <p>MINIMAL FREELANCE PORTFOLIO </p>
                 </div>
             </div>
             <div class="carousel-item">
                 <img src="img/slide2.jpg">
-                <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-caption d-sm-block d-md-block">
                     <h5>Design & Branding</h5>
                     <p>We Deliver Quality Results</p>
                 </div>
