@@ -194,6 +194,22 @@ input.search-form:hover {
 
 
 
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-size: 50% 50%;
+    border-radius: 50%;
+    border: 1px solid #f8f7f8;
+    padding: 45px;
+}
+
+.carousel-indicators li{
+	background-color: #ffffff;
+}
+
+.carousel-indicators .active{
+	background-color: #000000;
+}
 
 .carousel-inner{
 	height: 650px;
@@ -212,6 +228,8 @@ input.search-form:hover {
 	color: #000000;
 	font-weight: 300;
 	bottom: 40%;
+	width: 50%;
+	margin: 0px auto;
 }
 
 .carousel-caption h5{
