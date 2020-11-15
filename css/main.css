@@ -100,24 +100,7 @@ a:focus {
 	width: 100%;
 }
 
-.catalog{
-	display: flex;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 50%;
-	margin: 50px auto;
-}
-
-.catalog .product{
-	width: 100px;
-	height: 50px;
-	margin-bottom: 15px;
-	background: gray;
-}
-
+/* шапка */
 .header{
 	display: flex;
     display: -ms-flexbox;
@@ -198,7 +181,7 @@ input.search-form:hover {
 }
 
 
-
+/* слайдер */
 .carousel-control-next-icon, .carousel-control-prev-icon {
     display: inline-block;
     background-repeat: no-repeat;
@@ -290,4 +273,36 @@ input.search-form:hover {
 	.carousel-control-next, .carousel-control-prev {
 		z-index: 10;
 	}
+}
+
+/* footer */
+.fot-logo{
+	width: 100%;
+	text-align: center;
+	padding: 50px 0px;
+}
+
+.fot-social{
+	width: 100%;
+	border-top: 1px solid #ebebeb; 
+	border-bottom: 1px solid #ebebeb; 
+	padding: 25px 0px;
+	color: #777777;
+	text-align: center;
+}
+
+.fot-social i{
+	margin: 0px 35px;
+	cursor: pointer;
+}
+
+.fot-info{
+	width: 100%;
+	padding: 35px 0px;
+	text-align: center;
+	color: #9c9c9c;
+}
+
+.fot-info span{
+	color: #000000;
 }
