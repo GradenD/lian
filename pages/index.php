@@ -30,3 +30,52 @@
         </a>
     </div>
 </div>
+
+<div class="features">
+    <div class="container">
+        <div class="tab-nav">
+            <div class="lines">
+                <p>ULL</p>
+                <div class="ln"></div>
+            </div>
+            <div class="lines">
+                <p>LOGO</p>
+                <div class="ln"></div>
+            </div>
+            <div class="lines">
+                <p>Mobile App</p>
+                <div class="ln"></div>
+            </div>
+            <div class="lines">
+                <p>WordPress</p>
+                <div class="ln"></div>
+            </div>
+            <div class="lines">
+                <p>Web Design</p>
+                <div class="ln"></div>
+            </div>
+            <div class="lines">
+                <p>UI/IX</p>
+                <div class="ln"></div>
+            </div>
+            <div class="lines">
+                <p>Branding</p>
+            </div>
+        </div>
+        <div class="tab-images">
+            <a href="#" class="img__link"><img src="img/index-block/index-9.jpg"></a>
+            <a href="#" class="img__link"><img src="img/index-block/index-6.jpg"></a>
+            <a href="#" class="img__link"><img src="img/index-block/index-5.jpg"></a>
+            <a href="#" class="img__link"><img src="img/index-block/index-8.jpg"></a>
+            <a href="#" class="img__link"><img src="img/index-block/index-10.jpg"></a> 
+            <a href="#" class="img__link"><img src="img/index-block/index-3.jpg"></a>
+            <a href="#" class="img__link"><img src="img/index-block/index-2.jpg"></a>
+            <a href="#" class="img__link"><img src="img/index-block/index-7.jpg"></a>       
+            <a href="#" class="img__link"><img src="img/index-block/index-4.jpg"></a>   
+            <a href="#" class="img__link"><img src="img/index-block/index-1.jpg"></a>        
+        </div>
+        <div class="tab-btn">
+            <button class="btn-send"> LOAD MORE </button>
+        </div>
+    </div>
+</div>
