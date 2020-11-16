@@ -42,7 +42,13 @@ div{
 
 img{
 	object-fit: cover;
+	opacity: 1;
+  	transition: opacity 0.3s;
 }
+
+img[data-src] {
+	opacity: 0;
+  }
 
 button{
 	cursor: pointer;

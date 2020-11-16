@@ -6,14 +6,14 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="img/slide1.jpg">
+                <img data-src="img/slide1.jpg">
                 <div class="carousel-caption d-sm-block d-md-block">
                     <h5>LIAN CREATIVE AGENCY</h5>
                     <p>MINIMAL FREELANCE PORTFOLIO </p>
                 </div>
             </div>
            <div class="carousel-item">
-                <img src="img/slide2.jpg">
+                <img data-src="img/slide2.jpg">
                 <div class="carousel-caption d-sm-block d-md-block">
                     <h5>Design & Branding</h5>
                     <p>We Deliver Quality Results</p>
@@ -63,16 +63,16 @@
             </div>
         </div>
         <div class="tab-images">
-            <a href="#" class="img__link"><img src="img/index-block/index-9.jpg"></a>
-            <a href="#" class="img__link"><img src="img/index-block/index-6.jpg"></a>
-            <a href="#" class="img__link"><img src="img/index-block/index-5.jpg"></a>
-            <a href="#" class="img__link"><img src="img/index-block/index-8.jpg"></a>
-            <a href="#" class="img__link"><img src="img/index-block/index-10.jpg"></a> 
-            <a href="#" class="img__link"><img src="img/index-block/index-3.jpg"></a>
-            <a href="#" class="img__link"><img src="img/index-block/index-2.jpg"></a>
-            <a href="#" class="img__link"><img src="img/index-block/index-7.jpg"></a>       
-            <a href="#" class="img__link"><img src="img/index-block/index-4.jpg"></a>   
-            <a href="#" class="img__link"><img src="img/index-block/index-1.jpg"></a>        
+            <a href="#" class="img__link"><img data-src="img/index-block/index-9.jpg"></a>
+            <a href="#" class="img__link"><img data-src="img/index-block/index-6.jpg"></a>
+            <a href="#" class="img__link"><img data-src="img/index-block/index-5.jpg"></a>
+            <a href="#" class="img__link"><img data-src="img/index-block/index-8.jpg"></a>
+            <a href="#" class="img__link"><img data-src="img/index-block/index-10.jpg"></a> 
+            <a href="#" class="img__link"><img data-src="img/index-block/index-3.jpg"></a>
+            <a href="#" class="img__link"><img data-src="img/index-block/index-2.jpg"></a>
+            <a href="#" class="img__link"><img data-src="img/index-block/index-7.jpg"></a>       
+            <a href="#" class="img__link"><img data-src="img/index-block/index-4.jpg"></a>   
+            <a href="#" class="img__link"><img data-src="img/index-block/index-1.jpg"></a>        
         </div>
         <div class="tab-btn">
             <button class="btn-send"> LOAD MORE </button>

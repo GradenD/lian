@@ -14,10 +14,10 @@
              <div id="carouselExampleSlidesOnly" class="carousel slide about-carousel" data-ride="carousel">
                 <div class="carousel-inner about-carousel">
                     <div class="carousel-item active">
-                        <img src="img/story/story-1.jpg">
+                        <img data-src="img/story/story-1.jpg" loading="lazy">
                     </div>
                     <div class="carousel-item">
-                        <img src="img/story/story-2.jpg">
+                        <img data-src="img/story/story-2.jpg" loading="lazy">
                     </div>
                 </div>
             </div>
