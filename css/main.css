@@ -32,6 +32,10 @@ p {
     margin-bottom: 0rem; 
 }
 
+a {
+	color: inherit;
+}
+
 div{	
 	display: block;
 }
@@ -115,6 +119,10 @@ a:focus {
 	font-size: 1rem;
 }
 
+.header a{
+	color: inherit;
+}
+
 .header .main-menu ul{
 	display: -ms-flexbox;
     display: flex;
@@ -126,6 +134,12 @@ a:focus {
 
 .header .main-menu li{
 	padding-left: 45px;
+}
+
+.header .main-menu hr {
+    width: 20px;
+    border-top: 1px solid #06060a;
+    border-bottom: 1px solid #06060a;
 }
 
 input.search-form {
@@ -400,6 +414,127 @@ input.search-form:hover {
     width: 125px;
 }
 
+
+
+/* about heading*/
+.heading{
+	width: 100%;
+	height: 350px;
+	padding: 115px 0px;
+	text-align: left;
+	border-top: 1px solid #e1e1e1; 
+	background: no-repeat right/100% url(/img/about-heading.jpg);
+	background-size: cover;
+}
+
+.heading h5 {
+    font-size: 3.4rem;
+    letter-spacing: 5px;
+    color: #fff;
+	background: #000000;
+	width: 660px;
+	padding: 0px 30px;
+}
+
+.heading p {
+    margin-top: 30px;
+    font-size: 1.3rem;
+	letter-spacing: 5px;
+}
+
+@media (max-width: 768px){
+	.heading h5 {
+		width: auto;
+		padding: 0px 10px;
+	}
+}
+
+/* about story */
+.our-story{
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+	justify-content: space-between;
+	padding: 75px 0px;
+}
+
+.our-story .story-img{
+	width: 530px;
+	height: 660px;
+}
+
+.story-img img{
+	min-width: 100%;
+	height: 100%;
+}
+
+.about-carousel{
+	width: 100%;
+	height: 100%;
+}
+
+.our-story .story-info{
+	max-width: 555px;
+	margin-left: 30px;
+}
+
+.our-story .story-info .info-block{
+
+}
+
+.info-block h1{
+	font-size: 1.2rem;
+	color: #000000;
+	font-weight: 300;
+	letter-spacing: 5px;
+	margin-bottom: 40px;
+}
+
+.info-block h2{
+	font-size: 1rem;
+	color: #2f302f;
+	font-weight: 500;
+}
+
+.info-block p{
+	font-size: 1rem;
+	color: #777777;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.info-block .form-group {
+    margin-bottom: 0rem; 
+}
+
+@media (max-width: 993px){
+
+	.our-story {
+		flex-direction: column;
+		-webkit-justify-content: center;
+		justify-content: center;
+		padding: 40px 0px;
+	}
+
+	.our-story .story-img {
+		width: 100%;
+		height: 500px;
+		margin-bottom: 40px;
+	}
+
+	.story-img img {
+		min-width: 100%;
+		height: 100%;
+	}
+
+	.our-story .story-info {
+		max-width: 500px;
+		margin: 0px auto;
+	}
+}
+
+
 /* footer */
 .fot-logo{
 	width: 100%;
@@ -429,5 +564,13 @@ input.search-form:hover {
 }
 
 .fot-info span{
+	color: #000000;
+}
+
+.active{
+	color: #000000;
+}
+
+.active a:hover {
 	color: #000000;
 }

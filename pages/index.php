@@ -34,7 +34,7 @@
 <div class="features">
     <div class="container">
         <div class="tab-nav">
-            <div class="lines">
+            <div class="lines active">
                 <p>ULL</p>
                 <div class="ln"></div>
             </div>

@@ -25,9 +25,14 @@
 						<span class="navbar-toggler-icon"></span>
 					</button>
 					<div class="main-menu collapse navbar-collapse">
+						<hr>
 						<ul class="navbar-nav nav-margin">
-							<li>HOME</li>
-							<li>ABOUT</li>
+							<li class="active">
+								<a href="/?page=index">HOME</a>
+							</li>
+							<li>
+								<a href="/?page=about">ABOUT</a>
+							</li>
 							<li>PORTFOLIO</li>
 							<li>BLOG</li>
 							<li>CONTACT</li>
