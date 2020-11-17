@@ -27,6 +27,11 @@ body {
 	color: #777777;
 }
 
+.row {
+    margin-right: 0px; 
+    margin-left: 0px; 
+}
+
 p {
     margin-top: 0;
     margin-bottom: 0rem; 
@@ -48,7 +53,7 @@ img{
 
 img[data-src] {
 	opacity: 0;
-  }
+}
 
 button{
 	cursor: pointer;
@@ -492,7 +497,7 @@ input.search-form:hover {
 .info-block h1{
 	font-size: 1.2rem;
 	color: #000000;
-	font-weight: 300;
+	font-weight: 400;
 	letter-spacing: 5px;
 	margin-bottom: 40px;
 }
@@ -540,6 +545,118 @@ input.search-form:hover {
 	}
 }
 
+.awesome-team{
+	width: 100%;
+}
+
+.awesome-team .head{
+	width: 590px;
+	margin: 0px auto;
+	text-align: center;
+}
+
+.awesome-team .head h1{
+	font-size: 1.9rem;
+	font-weight: 400;
+	letter-spacing: 5px;
+	color: #000000;
+	margin-bottom: 45px;
+}
+
+.awesome-team .head p{
+    font-size: 1rem;
+    color: #777777;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.awesome-team .body-team{
+	display: flex;
+    display: -ms-flexbox;
+	display: -webkit-flex;
+	flex-direction: column;
+}
+
+.awesome-team .body-team .team-line{
+	display: flex;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    -webkit-justify-content: space-between;
+	justify-content: space-between;
+}
+
+.awesome-team .body-team .team-line .team{
+	width: 31%;
+}
+
+.team .team-img{
+	width: 100%;
+	height: 440px;
+	text-align: center;
+	background-color: #eeeeee;
+}
+
+.team .team-img img{
+	max-width: 100%;
+	height: 100%;
+}
+
+.team .team-info{
+	width: 100%;
+	text-align: left;
+	background-color: #ffffff;
+	padding: 30px 0px;
+}
+
+.team .team-info p{
+	font-size: 1rem;
+    color: #777777;
+	font-weight: 400;
+	padding-top: 25px;
+}
+
+.team .team-info h1{
+	font-size: 1.5rem;
+    color: #041608;
+	font-weight: 300;
+	margin-bottom: .0rem;
+}
+
+.team .team-info h2{
+	font-size: 1.2rem;
+    color: #777777;
+	font-weight: 700;
+	margin-bottom: .0rem;
+}
+
+@media (max-width: 993px){
+
+	.awesome-team .body-team .team-line {
+		flex-direction: column;
+	}
+
+	.awesome-team .body-team .team-line .team {
+		width: 80%;
+		margin: 0px auto;
+		margin-bottom: 20px;
+	}
+}
+
+@media (max-width: 768px){
+
+	.awesome-team .head {
+		width: 90%;
+		margin: 0px auto;
+		text-align: center;
+	}
+
+	.awesome-team .body-team .team-line .team {
+		width: 90%;
+		margin: 0px auto;
+		margin-bottom: 20px;
+	}
+
+}
 
 /* footer */
 .fot-logo{

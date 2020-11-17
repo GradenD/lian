@@ -19,7 +19,7 @@
 			<div class="container">
 				<div class="header navbar navbar-expand-lg bsnav">
 					<div class="logo">
-						<img src="img/logo.png">
+					<a href="/?page=index"><img src="img/logo.png"></a>
 					</div>
 					<button class="navbar-toggler toggler-spring" data-toggle="collapse" data-target=".navbar-collapse">
 						<span class="navbar-toggler-icon"></span>

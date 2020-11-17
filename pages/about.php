@@ -14,10 +14,10 @@
              <div id="carouselExampleSlidesOnly" class="carousel slide about-carousel" data-ride="carousel">
                 <div class="carousel-inner about-carousel">
                     <div class="carousel-item active">
-                        <img data-src="img/story/story-1.jpg" loading="lazy">
+                        <img data-src="img/story/story-1.jpg">
                     </div>
                     <div class="carousel-item">
-                        <img data-src="img/story/story-2.jpg" loading="lazy">
+                        <img data-src="img/story/story-2.jpg">
                     </div>
                 </div>
             </div>
@@ -70,6 +70,63 @@
                     </div>
                     <div class="col-12">
                         <input type="text" id="range_04">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="awesome-team">
+        <div class="head">
+            <h1>AWESOME TEAM</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed 
+                diam nonummy nibh euismod tincidunt ut laoreet dolore magna 
+                aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud 
+                exerci tation ullamcorper suscipit.
+            </p>
+        </div>
+        <div class="body-team">
+            <div class="team-line">
+                <div class="team">
+                    <div class="team-img">
+                        <img data-src="img/team/team-1.png">
+                    </div>
+                    <div class="team-info">
+                        <h1>LIAN JOY</h1>
+                        <h2>CEO/Founder</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, conse ctetuer adipi 
+                            scing elit, sed diam nonu mmy nibh euis mod tinci
+                        </p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-img">
+                        <img data-src="img/team/team-2.png">
+                    </div>
+                    <div class="team-info">
+                        <h1>ALBERT THANH</h1>
+                        <h2>CEO/Founder</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, conse ctetuer adipi 
+                            scing elit, sed diam nonu mmy nibh euis mod tinci
+                        </p>
+                    </div>
+                </div>
+                <div class="team">
+                    <div class="team-img">
+                        <img data-src="img/team/team-3.png">
+                    </div>
+                    <div class="team-info">
+                        <h1>JENN PEREIRA</h1>
+                        <h2>CEO/Founder</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, conse ctetuer adipi 
+                            scing elit, sed diam nonu mmy nibh euis mod tinci
+                        </p>
                     </div>
                 </div>
             </div>
