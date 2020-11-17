@@ -33,7 +33,9 @@
 							<li>
 								<a href="/?page=about">ABOUT</a>
 							</li>
-							<li>PORTFOLIO</li>
+							<li>
+								<a href="/?page=portfolio">PORTFOLIO</a>
+							</li>
 							<li>BLOG</li>
 							<li>CONTACT</li>
 						</ul>
