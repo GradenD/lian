@@ -19,3 +19,10 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+$('.items').click(function(){
+	$('.items').removeClass('items-active');
+  $(this).addClass('items-active');
+  var img = $(this).html();
+  $('.active-glav').html(img);
+});

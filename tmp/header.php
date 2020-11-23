@@ -6,12 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	<title>LIAN</title>
+	<script type="text/javascript" src='js/jQuery.js'></script>
 	<script type="text/javascript" src='js/fontawesome.js'></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bsnav.min.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 	<link rel="stylesheet" type="text/css" href="fonts/font.css">
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="img/logo.png">
   </head>
 <body>	
 	<div class="wrapper">
