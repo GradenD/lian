@@ -37,7 +37,9 @@
 							<li>
 								<a href="/?page=portfolio">PORTFOLIO</a>
 							</li>
-							<li>BLOG</li>
+							<li>
+								<a href="/?page=blog">BLOG</a>
+							</li>
 							<li>CONTACT</li>
 						</ul>
 						<div class="social">
