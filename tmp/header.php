@@ -46,7 +46,7 @@
 							<div class="search">
                              	<form role="form">
                             	 	<input type="text" class="search-form" autocomplete="off" placeholder="Search">
-                               		 <i class="fa fa-search" aria-hidden="true"></i>
+									<i class="fas fa-search text-grey" aria-hidden="true"></i>
                             	</form>
 							</div>
 						</div>

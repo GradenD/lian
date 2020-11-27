@@ -43,7 +43,7 @@
                     </div>
                 </div>
                 <div class="blog-items">
-                    <img src="img/index-block/index-10.jpg">
+                    <img data-src="img/index-block/index-10.jpg">
                     <div class="blog-body">
                         <a href="#">
                             <div class="head-items">
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="blog-items">
-                    <img src="img/index-block/index-9.jpg">
+                    <img data-src="img/index-block/index-9.jpg">
                     <div class="blog-body">
                         <a href="#">
                             <div class="head-items">
@@ -141,17 +141,104 @@
             </div>
         </div>
         <div class="blog-social">
-            <div class="input-group md-form form-sm form-2 pl-0 blog-search">
+            <div class="input-group md-form form-sm form-2 pl-0 blog-search social-content">
                 <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
                 <div class="input-group-append">
                     <span class="input-group-text amber lighten-3"><i class="fas fa-search text-grey" aria-hidden="true"></i></span>
                  </div>
             </div>
-            <div class="recent-posts">
+            <div class="recent-posts social-content">
                 <div class="post-head">
                     <h1>RECENT POST</h1>
+                </div>
+                <div class="post-body">
+                    <div class="post">
+                        <div class="post-img">
+                            <img data-src="img/post/post-1.jpg">
+                        </div>
+                        <div class="post-title">
+                            <h1>Lorem ipsum dolor sit amet, consec</h1>
+                            <p>July 5, 2016</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-img">
+                            <img data-src="img/post/post-2.jpg">
+                        </div>
+                        <div class="post-title">
+                            <h1>Ut wisi enim ad minim veniam, quis</h1>
+                            <p>July 17, 2016</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-img">
+                            <img data-src="img/post/post-3.jpg">
+                        </div>
+                        <div class="post-title">
+                            <h1>Aliquip ex ea commodo aliquam erat volutpat</h1>
+                            <p>July 21, 2016</p>
+                        </div>
+                    </div>
+                    <div class="post">
+                        <div class="post-img">
+                            <img data-src="img/post/post-4.jpg">
+                        </div>
+                        <div class="post-title">
+                            <h1>Ut wisi enim ad minim veniam, quis</h1>
+                            <p>July 17, 2016</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-posts social-content popular-tags">
+                <div class="post-head">
+                    <h1>POPULAR TAGS</h1>
+                </div>
+                <div id="tags" class="post-body tags-body">
+                    <div class="tags">
+                        <p>construction</p>
+                    </div>
+                    <div class="tags">
+                        <p>engineering</p>
+                    </div>
+                    <div class="tags">
+                        <p>architecture</p>
+                    </div>
+                    <div class="tags tags-avtive">
+                        <p>structural design</p>
+                    </div>
+                    <div class="tags">
+                        <p>civil engineer</p>
+                    </div>
+                    <div class="tags">
+                        <p>industrial</p>
+                    </div>
+                    <div class="tags">
+                        <p>management</p>
+                    </div>
+                    <div class="tags">
+                        <p>mechanical</p>
+                    </div>
+                </div>
+            </div>
+            <div class="recent-posts social-content inst">
+                <div class="post-head">
+                    <h1>INSTAGRAM</h1>
+                </div>
+                <div class="post-body inst-body">
+                    <img data-src="img/inst/inst-1.jpg">
+                    <img data-src="img/inst/inst-2.jpg">
+                    <img data-src="img/inst/inst-3.jpg">
+                    <img data-src="img/inst/inst-4.jpg">
+                    <img data-src="img/inst/inst-5.jpg">
+                    <img data-src="img/inst/inst-6.jpg">
+                    <img data-src="img/inst/inst-7.jpg">
+                    <img data-src="img/inst/inst-8.jpg">
+                    <img data-src="img/inst/inst-9.jpg">
                 </div>
             </div>
         </div>
     </div>
 </div>
+
+<script type="text/javascript" src='js/blog.js'></script>
