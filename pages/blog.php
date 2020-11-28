@@ -13,7 +13,7 @@
             <div id="load-block" class="blog-columns">
                 <div class="blog-items">
                     <div class="blog-body">
-                        <a href="#">
+                        <a href="/?page=post">
                             <div class="head-items">
                                 <h2>WORDPRESS</h2>
                                 <h1>I am a Blog Post Title</h1>
@@ -45,7 +45,7 @@
                 <div class="blog-items">
                     <img data-src="img/index-block/index-10.jpg">
                     <div class="blog-body">
-                        <a href="#">
+                        <a href="/?page=post">
                             <div class="head-items">
                                 <h1>I am a Blog Post with an Awesome Image</h1>
                                 <p class="name"><i class="fas fa-user"></i> by Jenn Pereira</p>
@@ -74,7 +74,7 @@
                 <div class="blog-items">
                     <img data-src="img/index-block/index-9.jpg">
                     <div class="blog-body">
-                        <a href="#">
+                        <a href="/?page=post">
                             <div class="head-items">
                                 <h1>I am a Blog Post with an Awesome Image</h1>
                                 <p class="name"><i class="fas fa-user"></i> by Jenn Pereira</p>
@@ -102,7 +102,7 @@
                 </div>
                 <div class="blog-items">
                     <div class="blog-body">
-                        <a href="#">
+                        <a href="/?page=post">
                             <div class="head-items">
                                 <h2>WORDPRESS</h2>
                                 <h1>I am a Blog Post Title</h1>

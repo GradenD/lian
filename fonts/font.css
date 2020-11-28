@@ -70,3 +70,13 @@
     font-weight: 900;
     font-style: italic;
 }
+
+@font-face {
+    font-family: "PTSerifBoldItalic";
+    src: url("PTSerifBoldItalic.eot");
+    src: url("PTSerifBoldItalic.eot?#iefix")format("embedded-opentype"),
+    url("PTSerifBoldItalic.woff") format("woff"),
+    url("PTSerifBoldItalic.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
