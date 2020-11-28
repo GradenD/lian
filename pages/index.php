@@ -1,5 +1,5 @@
 <div class="">
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slider" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -62,7 +62,7 @@
                 <p>Branding</p>
             </div>
         </div>
-        <div class="tab-images">
+        <div id="load-block" class="tab-images">
             <a href="#" class="img__link"><img data-src="img/index-block/index-9.jpg"></a>
             <a href="#" class="img__link"><img data-src="img/index-block/index-6.jpg"></a>
             <a href="#" class="img__link"><img data-src="img/index-block/index-5.jpg"></a>
@@ -75,7 +75,9 @@
             <a href="#" class="img__link"><img data-src="img/index-block/index-1.jpg"></a>        
         </div>
         <div class="tab-btn">
-            <button class="btn-send"> LOAD MORE </button>
+            <button id="load" class="btn-send"> LOAD MORE </button>
         </div>
     </div>
 </div>
+
+<script type="text/javascript" src='js/index.js'></script>

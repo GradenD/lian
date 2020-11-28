@@ -1,13 +1,11 @@
-
-$('.tags').click(function(){
-	$('.tags').removeClass('tags-avtive');
-    $(this).addClass('tags-avtive');
-});
+$(document).ready(function(){
+	
+})
 
 $('#load').click(function(){
 	$.ajax({
 	  	type: "POST",
-	  	url: 'pages/config.php',
+	  	url: 'pages/index-img.php',
 	  	success: function(data) {
             for (let i = 0; i < 2; i++) {
                 $('#load-block').append(data);

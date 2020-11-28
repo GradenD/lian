@@ -10,7 +10,7 @@
 <div class="container">
     <div class="blog">
         <div class="blog-content">
-            <div class="blog-columns">
+            <div id="load-block" class="blog-columns">
                 <div class="blog-items">
                     <div class="blog-body">
                         <a href="#">
@@ -127,14 +127,14 @@
                                     <i class="fas fa-share-alt" aria-hidden="true"></i>
                                     <i class="fas fa-heart"></i>
                                 </p>
-                            </div>
+                            </div>          
                         </div>
                     </div>
-                </div>
+                </div> 
             </div> 
             <div class="row">
                 <div class="col-12 col-pad load-more">
-                    <button class="btn-send"> 
+                    <button id="load" class="btn-send"> 
 				         LOAD MORE
 			        </button>
                 </div>
