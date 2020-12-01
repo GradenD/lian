@@ -40,7 +40,9 @@
 							<li>
 								<a href="/?page=blog">BLOG</a>
 							</li>
-							<li>CONTACT</li>
+							<li>
+							<a href="/?page=contact">CONTACT</a>
+							</li>
 						</ul>
 						<div class="social">
 							<div class="search">

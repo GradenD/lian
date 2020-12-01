@@ -99,7 +99,7 @@
                     <div class="form-group">
 					    <div class="input-group">
 					        <span class="input-group-addon"><i class="fas fa-globe" aria-hidden="true"></i></span>
-						    <input type="text" required class="form-control" name="email" id="email" placeholder="Email">
+						    <input type="text" required class="form-control" name="email" id="email" placeholder="Website">
 					    </div>
                     </div>
                     <div class="form-group message-but">
